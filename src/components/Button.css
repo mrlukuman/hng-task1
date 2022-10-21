@@ -1,0 +1,10 @@
+.button {
+  width: 80%;
+  text-align: center;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
