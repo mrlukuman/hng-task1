@@ -1,7 +1,7 @@
 import React from "react";
 
-function Social() {
+function Button() {
   return <div>yo</div>;
 }
 
-export default Social;
+export default Button;

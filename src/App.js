@@ -1,5 +1,5 @@
 import "./App.css";
-import Social from "./components/Social";
+import Button from "./components/Button";
 
 function App() {
   return <Social></Social>;
