@@ -1,10 +1,10 @@
 import React from "react";
 import "./Button.css";
 
-function Button() {
+function Button(prop) {
   return (
-    <a className="button" href="https://twitter.com/tj_alani">
-      <div>Twitter</div>
+    <a id="prop.key" className="button" href={prop.data.link}>
+      <div>{prop.data.name}</div>
     </a>
   );
 }
