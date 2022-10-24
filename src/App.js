@@ -11,12 +11,12 @@ function App() {
     {
       id: "linkedin",
       name: "linkedIn",
-      link: "https://twitter.com/tj_alani",
+      link: "https://www.linkedin.com/in/tajudeen-lukuman-aleru-561931199/",
     },
     {
       id: "github",
       name: "Github",
-      link: "https://twitter.com/tj_alani",
+      link: "https://github.com/tjalani",
     },
   ];
 
