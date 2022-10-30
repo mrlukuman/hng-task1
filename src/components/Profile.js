@@ -23,11 +23,11 @@ export const Profile = () => {
       <div className="profile__links">
         <div id="twitter" className="twitter-profile">
           <FaTwitter className="twitter-icon"></FaTwitter>
-          <a href="https://twitter.com/tj_alani">@tjalani</a>
+          <a href="https://twitter.com/tj_alani">@tj_alani</a>
         </div>
         <div id="slack" className="slack-profile">
           <FaSlack className="slack-icon"></FaSlack>
-          <a href="https://twitter.com/tj_alani">@tjalani</a>
+          <a href="https://slack.com/">@tj-alani</a>
         </div>
       </div>
     </>

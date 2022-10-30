@@ -45,6 +45,18 @@ a {
   margin-right: 1rem;
 }
 
+.twitter-profile {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
 .slack-profile {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 25px;
   visibility: hidden;
 }
