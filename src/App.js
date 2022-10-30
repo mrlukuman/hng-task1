@@ -23,7 +23,7 @@ function App() {
         "Do you wanna learn python with no previous programming experience? If so, then you don't want to miss this book",
       id: "book__python",
       name: "Python Book For Beginners",
-      link: "https://books.zuri.team/python-for-beginners?ref_id=tjalani",
+      link: "https://books.zuri.team/python-for-beginners?ref_id=tj-alani",
     },
     {
       subtext:
