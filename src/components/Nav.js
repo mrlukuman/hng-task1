@@ -1,4 +1,4 @@
-import pageshare from "../assets/images/page-share.png";
+import pageshare from "../assets/images/dashed-share-icon.png";
 import more from "../assets/images/more-default.png";
 import "./Nav.css";
 import { useState } from "react";
