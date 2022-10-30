@@ -11,25 +11,30 @@ export const Profile = () => {
       <div className="profile-container"></div>
       <Nav></Nav>
 
-      <div className="profile__image">
-        <img className="personal-img" alt="profile" src={profile}></img>
-        <div className="dark-overlay">
-          <img className="camera-img" src={camera} alt="camera-img"></img>
+      <section className="profile">
+        <div className="profile__image">
+          <img className="personal-img" alt="profile" src={profile}></img>
+          <div className="dark-overlay">
+            <img className="camera-img" src={camera} alt="camera-img"></img>
+          </div>
         </div>
-      </div>
-      <div className="profile__name">
-        <strong>Tajudeen Lukuman Aleru</strong>
-      </div>
-      <div className="profile__links">
-        <div id="twitter" className="twitter-profile">
-          <FaTwitter className="twitter-icon"></FaTwitter>
-          <a href="https://twitter.com/tj_alani">@tj_alani</a>
+        <div id="twitter" className="profile__name">
+          <strong>tj_alani</strong>
         </div>
-        <div id="slack" className="slack-profile">
-          <FaSlack className="slack-icon"></FaSlack>
-          <a href="https://slack.com/">@tj-alani</a>
+        <div id="slack" className="slack__name">
+          <strong>tj-alani</strong>
         </div>
-      </div>
+        <div className="profile__links">
+          <div id="twitter-profile" className="twitter-profile">
+            <FaTwitter className="twitter-icon"></FaTwitter>
+            <a href="https://twitter.com/tj_alani">@tj_alani</a>
+          </div>
+          <div id="slack-profile" className="slack-profile">
+            <FaSlack className="slack-icon"></FaSlack>
+            <a href="https://slack.com/">@tj-alani</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
