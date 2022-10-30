@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .horizontal-line {
@@ -9,11 +10,19 @@
   width: 80vw;
   height: 0.05rem;
   background-color: gray;
+  opacity: 0.5;
+}
+
+.footer p {
+  font-weight: 500;
+  opacity: 0.6;
+  /* margin-bottom: 2rem; */
 }
 
 @media (max-width: 750px) {
   .footer {
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
   }
 }

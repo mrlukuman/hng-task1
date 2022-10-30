@@ -29,7 +29,7 @@ function App() {
       subtext:
         "Wanna be self concious about your amazing programming skills. Let's find out together.",
       id: "pitch",
-      name: "Zuri Team",
+      name: "Background check for coders",
       link: "https://background.zuri.team",
     },
     {

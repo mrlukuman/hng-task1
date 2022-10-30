@@ -1,0 +1,43 @@
+.nav-icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.more {
+  display: none;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 120%;
+  right: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 8rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 25px;
+  padding-right: 0.2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
+  margin-right: 0.2rem;
+}
+
+@media (max-width: 750px) {
+  .share-page {
+    display: none;
+  }
+
+  .more {
+    display: block;
+    cursor: pointer;
+  }
+}

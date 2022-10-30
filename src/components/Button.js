@@ -10,9 +10,7 @@ function Button(prop) {
         <span>{prop.data.subtext}</span>
 
         <div className="link-share-icon">
-          <a href={prop.data.link}>
-            <img src={shareicon} alt="share-icon"></img>
-          </a>
+          <img src={shareicon} alt="share-icon"></img>
         </div>
       </a>
     </div>
