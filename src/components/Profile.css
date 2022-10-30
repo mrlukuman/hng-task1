@@ -1,0 +1,50 @@
+.profile__image {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+}
+
+.personal-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.dark-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  display: none;
+}
+
+.camera-img {
+  position: relative;
+  top: 70%;
+  left: 40%;
+}
+
+.profile__image:hover .dark-overlay {
+  display: block;
+}
+
+.profile__name {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.slack-icon,
+.twitter-icon {
+  margin-right: 1rem;
+}
+
+.slack-profile {
+  visibility: hidden;
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-line {
+  margin-bottom: 1rem;
+  width: 80vw;
+  height: 0.05rem;
+  background-color: gray;
+}
+
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
