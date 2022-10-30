@@ -13,7 +13,12 @@ export const Profile = () => {
 
       <section className="profile">
         <div className="profile__image">
-          <img className="personal-img" alt="profile" src={profile}></img>
+          <img
+            id="profile__img"
+            className="personal-img"
+            alt="profile"
+            src={profile}
+          ></img>
           <div className="dark-overlay">
             <img className="camera-img" src={camera} alt="camera-img"></img>
           </div>
