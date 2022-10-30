@@ -19,7 +19,9 @@ export const Profile = () => {
           </div>
         </div>
         <div id="twitter" className="profile__name">
-          <strong>tj_alani</strong>
+          <a href="https://twitter.com/tj_alani">
+            <strong>tj_alani</strong>
+          </a>
         </div>
         <div id="slack" className="slack__name">
           <strong>tj-alani</strong>
