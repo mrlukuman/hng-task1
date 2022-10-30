@@ -1,4 +1,5 @@
 import "./App.css";
+//tj-alani.slack.com
 import Button from "./components/Button";
 import { Profile } from "./components/Profile";
 import Social from "./components/Social";
@@ -6,6 +7,12 @@ import Footer from "./components/Footer";
 
 function App() {
   const linksData = [
+    {
+      subtext: "My Twitter profile",
+      id: "twitter-link",
+      name: "Twitter",
+      link: "https://twitter.com/tj_alani",
+    },
     {
       subtext: "Meet the zuri team",
       id: "btn__zuri",
